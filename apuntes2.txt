@@ -1,0 +1,70 @@
+select -
+--- 1 y 0 pequeños arriba abajo, posibilidades de valor.
+t0
+--- t0 siempre debe existir para muchas vars.
+1big - bucle 2pqs  2ext-pqs  iext (0-9)
+10 y to 2expt-pqs  tk
+--- tk eje de time discreto  tk = k. T = i T
+--- make samples of t0 in a T period i times
+1pq- ''-'' 
+1big su 1pq-ns - ns - NSAMPLES
+2big - _ t0 and tk 
+1ext (tk = ti:h:tf)
+formula
+--- ns = tf - to)/T + 1
+---- samples amount = ns -1
+----------------------------------------------------
+Labview: 
+triangle - select - comparation
+2medians - control and indicator
+2 peqs - constants 1 and 0
+view as icon to each ( always make this)
+SubVI -classification
+---representacion iconica de un programa.
+select + edit + creat subvi
+----creacion de sub cuadro que resume un area de dispositivos
+doble clcik + ctrl T (se ordenan las ventanas 1izquerda 1derecha)
+icon barra superior matrix - patterns - 4
+icons edits -ñglyphs barra (3)
+edit - 4 (save)
+--------------------------------------------------------
+create SUBVI
+double click to the new subVI icon
+--- it will open the new VIblock window
+left square - select 
+input pin - select 
+Primer subVI creado. 
+edit icon
+--- porque los pins no son practicos de usar con ese icon defecto que se pone.
+In other project you want,open with subVI extension archive,
+window open block diagram
+Change names because  it has changed, especially the output names
+of the VIblock created.
+MOdify Patterns -change Always
+--- sometimes it is 4x4 2 inputs 2 outputs, left click
+	and you asign to each squeare the inputs on the leftBigw
+Make sure that you are using dbl input control and output
+---for that you create those from the leftbigw
+
+
+p21 
+4 - reciprocal
+
+left big - 6 - 1 - Wavefrom Chart
+r-b -timing -wait
+
+wave form - scale - 51 value maximum
+---calculated value, 51, if tf=5 and ti= 0 and T = 0.1
+x axis - quit checkbox - 0 to 2 
+rclick in plot0 interpolation -4 
+--------------------------------------------------------
+linx output - click in the point in the layer - tunnel mode - last value
+---evitar clave roto
+--- tunel array
+azul graph wave chart -clikc on leftBigw. graph, chart waveform, 
+---- al inicio es naranja y con etiqueta dbl pero al conectarlo, se 
+cambia a Azul y con simbolo infinito.
+dack 10 bits 12 bits, 4921 ic capsula 8 pines timer 555, i^2c
+
+IC : MCP4725 (12bits) Digital Analog converter
+
