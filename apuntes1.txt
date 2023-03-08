@@ -1,0 +1,28 @@
+This type of archive is generated when I have to much info in the 
+--- La data que entra desde RFM no es un array
+1  aRRAY sIZE - 1 CUADRO 
+1p Convert from Dynamic Data - orange etiqueta azul con orange con infinito dentro
+--- Va Directo a un array size que mide el tamaño del array
+2p Signals 2 - completely orange -pin of '1' RFM create - control
+--- 
+3p Signals -etiqueta gris azul contorno -pin of '1' -graph indicator
+--- input o output y desde 1v o 2v
+2 Array Subset yellow - 2 cuadros - yellow
+--- 1c index de row inicial
+----2c lenght de rows desde 1c que se consideraran en new array
+----basicamente, recorta una matriz.
+El problema era que estaba usando una data11 unidimensional
+cuando era data22 que es 2 dimenssional 
+---exactamente para eso
+estaba ese  array subset con 2 entradas pequeñas.
+Solo en data11 se usa 1 entrada pequeña en array subset.
+-----------------------------------------------------------------
+Arduino communication : 
+Installation of firmware -before simulation 
+---it is enough only 1 upload of this function in Tools _4-1-2
+DO channel -etiqueta azul -U8 - pin X digital in Arduino - create CONTROL 
+--- es un simple create control, solo que create control varia acorde al
+	pin y del dispositivo al que se conecta.
+
+------------------------------
+Step main function select - _4-4-7-13
